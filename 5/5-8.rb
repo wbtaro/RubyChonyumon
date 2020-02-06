@@ -1,0 +1,1 @@
+puts [500, 50, 300].sort.reverse
