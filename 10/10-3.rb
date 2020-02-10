@@ -5,4 +5,3 @@ require "cgi"
 uri = URI.parse("http://localhost:4567/drink")
 ret = Net::HTTP.get(uri)
 puts ret
-#puts CGI.unescape(ret)
